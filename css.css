@@ -10,7 +10,6 @@ body {
 
 h2 {
     display: table-caption;
-    font-weight: 4000;
     width: 100%;
     max-width: 600px;
     border-top: 2px white solid;
@@ -62,4 +61,24 @@ li>a {
 li>a:hover {
     border: 0;
     border-bottom: 1px solid gray;
+}
+
+nav {
+    position: fixed;
+    width: 15ch;
+}
+
+#nav_list {
+    list-style-type: none;
+    float: right;
+}
+
+h2,
+nav {
+    font-weight: 4000;
+    font-size: 2em;
+}
+
+section {
+    background-color: black;
 }
