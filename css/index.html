@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PM - 3D text</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <figure>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3>3D effecten in CSS. (klik om te bewerken)</h3>
+        <h3 contenteditable="true" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" oninput="f()">3D effecten in CSS. (klik om te bewerken)</h3>
+    </figure>
+</body>
+<script>
+    function f() {
+        elems = document.getElementsByTagName('h3')
+        for (let n = 0; n < elems.length - 1; n++) {
+            elems[n].innerHTML = elems[elems.length - 1].innerHTML
+        }
+    }
+</script>
+
+</html>
