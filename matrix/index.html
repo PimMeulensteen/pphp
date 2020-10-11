@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Julia Set</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+
+</head>
+
+<body style="background-color: black;">
+    <canvas id='cnvs' draggable="true"></canvas>
+</body>
+<style>
+    canvas,
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    canvas{
+        transition: 2s;
+    }
+</style>
+<script>
+    document.getElementById('cnvs').height = window.innerHeight;
+    document.getElementById('cnvs').width = window.innerWidth;
+</script>
+<script src="js.js"></script>
+</html>
